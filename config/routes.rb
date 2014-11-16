@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root to: "pages#index"
+  root to: "employments#index"
+  resources :employments
 end
